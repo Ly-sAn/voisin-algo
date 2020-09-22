@@ -32,7 +32,8 @@ public class Main {
 
             }
         } catch (NumberFormatException e) {
-            System.out.println("Désolé, votre n'est pas valide, je ne peux rien faire");
+            System.out.println("Désolé, votre saisi n'est pas valide, je ne peux rien faire");
+            // Ajout du mot "saisi" à la ligne du dessus
             result = -1;
         }
         System.out.println("Le résultat du calcul = " + result);
